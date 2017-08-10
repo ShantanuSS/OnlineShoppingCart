@@ -31,7 +31,7 @@ ArrayList mybasket=(ArrayList)session.getAttribute("mycart");
 ArrayList list=Proj.getProducts();
 %>
   No of items in basket are <%=mybasket.size() %>
-   <table border="1">
+   <table border="2">
 <tr>
 <td>Sr No.</td>
 <td>Product Name</td>
@@ -52,6 +52,6 @@ for(int i=0;i<mybasket.size();i++){
 }
 %>
 </table>
-   
+   <h2> You are viewing your cart<h2>
       </body>
 </html>
