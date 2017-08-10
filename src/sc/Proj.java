@@ -49,7 +49,9 @@ public class Proj {
 		p4.postOfferPrice = p4.Price - (p4.Price * p4.discount / 100);
 		p4.quantity = 1;
 		products.add(p4);
-	
+		
+		//initially containing 5 items 		
+		//similarly more items can be added to products list 
 		return products;
 	}	
 }
