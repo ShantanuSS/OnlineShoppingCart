@@ -19,12 +19,12 @@
   </head>
   
   <body style="background-color:blue;color=white ;">
-  Welcome to the Home...
+  Welcome to the Home of Online Shopping...
   <% if(session.getAttribute("authenticated")==null){
   String loginname=request.getParameter("loginname");
   String password=request.getParameter("password");  
   session.setAttribute("loginname",loginname);
-  if(loginname!=null&&password!=null&&loginname.equalsIgnoreCase("admin")&&
+  if(loginname!=null&&password!=null&&loginname.equalsIgnoreCase("admin")&& 
 		password.equalsIgnoreCase("admin")){
   session.setAttribute("authenticated",true);
   session.setAttribute("msg", "authentication succesfull");
@@ -34,6 +34,6 @@
 }
 }
   %>
-  <img src="111.jpg" alt="Check your Browser"  width="85%"/>
+  <img src="111.jpg" alt="The picture could not be displayed"  width="85%"/>
   </body>
 </html>
