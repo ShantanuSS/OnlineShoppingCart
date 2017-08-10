@@ -24,6 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body style="background-color: teal" >
     <h1> Thank you! You are a valuable customer to us!</h1>
+	<br> Fork this project on github.....
     <%session.invalidate(); %>
   <a href="Login.jsp">Click to Login Again</a>
   </body>
