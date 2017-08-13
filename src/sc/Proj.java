@@ -52,6 +52,6 @@ public class Proj {
 		
 		//initially containing 5 items 		
 		//similarly more items can be added to products list 
-		return products;
+		return products; //returns the whole list
 	}	
 }
